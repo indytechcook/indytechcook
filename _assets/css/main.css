@@ -195,7 +195,7 @@ h1 {
 }
 
 .title {
-    color: #1ba356;
+    color: #1ba356 !important;
 }
 
 .main {
