@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+gem 'RedCloth'
+gem 'jekyll'
+gem 'maruku'
+gem 'rdiscount'
+gem 'jekyll-asset-pipeline'
+gem 'hpricot'
+gem 'jekyll-import'
+gem 'sequel'
+gem 'mysql2'
+gem 'htmlentities'
+gem 'yui-compressor'

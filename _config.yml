@@ -1,2 +1,15 @@
-name: indytechcook
+title: Technology, Food and Random Thoughts
+descritpion: Blog of Neil Hastings
+name: Neil Hastings
+
+exclude: [Gemfile,Gemfile.lock]
+
+markdown: rdiscount
 pygments: true
+lsi: false
+timezone: America/New_York
+paginate: 10
+permalink: /:title
+
+asset_pipeline:
+  gzip: true
