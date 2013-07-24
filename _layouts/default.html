@@ -32,7 +32,7 @@
 
       <div class="header-container">
         <header class="wrapper clearfix">
-          <h1 class="title"><a href="/">{{site.title}}</a></h1>
+          <h1 class="title">{{site.title}}</h1>
           <nav>
             <ul>
             </ul>
@@ -48,7 +48,14 @@
 
       <div class="footer-container">  
         <footer class="wrapper">
-          <h3>footer</h3>
+          <div class="footer-content">
+            <div class="left">
+              &copy; {% render_year %}, Neil Hastings 
+            </div>
+            <div class="right">
+              Find me on <a href="https://twitter.com/indytechcook">twitter</a>, <a href="https://github.com/indytechcook">github</a>, <a href="https://drupal.org/user/245817">drupal.org</a>.
+            </div>
+          </div>
         </footer>
       </div>
       <!-- Piwik -->

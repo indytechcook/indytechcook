@@ -16,61 +16,75 @@ tags:
 <h3 style="text-align: left;">Blogs of Indy Custom Module</h3>
 <p style="text-align: left;">I added a few tabs to the profile page.&nbsp; One tab is a list of all the blogs for that user.&nbsp; It is basically a copy of the FeedAPI admin page just filter for the user.&nbsp; I filtered it based upon the user argument in the URL. Here is the code for the hook_menu.</p>
 
-<p style="text-align: left;">$items['user/%user/feeds'] = array(
-'type' => MENU_LOCAL_TASK,
-'title' => 'Blogs', //Going to be a variable on the main setting page
-'page callback' => 'blogsofindy_feedapi_admin_overview',
-'access callback' => TRUE,&nbsp; //security is built into the function since this displays on the user profile page
-'page arguments' => array(1), //pass the account
-'file' => 'blogsofindy.feed.user.page.inc'
+{% highlight php %}
+$items['user/%user/feeds'] = array(
+  'type' => MENU_LOCAL_TASK,
+  'title' => 'Blogs', //Going to be a variable on the main setting page
+  'page callback' => 'blogsofindy_feedapi_admin_overview',
+  'access callback' => TRUE,&nbsp; //security is built into the function since this displays on the user profile page
+  'page arguments' => array(1), //pass the account
+  'file' => 'blogsofindy.feed.user.page.inc'
 );
+
 $items['user/%user/feeds/overview'] = array(
-'type' => MENU_DEFAULT_LOCAL_TASK,
-'title' => 'Overview',
-'weight' => -10,
+  'type' => MENU_DEFAULT_LOCAL_TASK,
+  'title' => 'Overview',
+  'weight' => -10,
 );
+{% endhighlight %}
+
 <p style="text-align: left;"><strong>Here is the page callback code.</strong></p>
 
-<p style="text-align: left;">function blogsofindy_feedapi_admin_overview($account = NULL) {
-$header = array(
-t('Title'),
-t('Last refresh'),
-t('New items added per update'),
-t('Update rate'),
-t('Number of items'),
-t('Processing time'),
-t('Commands'),
-);
-$rows = array();
-//check to see if account variable was passed.
-//if so then only bring back the nid where the nid is the author
-<em> if (!isset($account)) {
-$result = pager_query("SELECT nid from {feedapi} ORDER BY checked DESC", 50, 0, "SELECT count(*) FROM {feedapi}");
-}
-else {
-$sql = sprintf("SELECT feedapi.nid AS nid FROM {feedapi} INNER JOIN {node} ON {feedapi}.nid = {node}.nid WHERE ({node}.uid = %d) ORDER BY {feedapi}.checked DESC", $account->uid);
-$sql_count = sprintf("SELECT count(*) FROM {feedapi} INNER JOIN {node} ON {feedapi}.nid = {node}.nid WHERE ({node}.uid = %d)", $account->uid);
-$result = pager_query($sql, 50, 0, $sql_count);
-}</em>
-while ($nid = db_fetch_array($result)) {
-$nid = $nid['nid'];
-$node = node_load($nid);
-if (is_object($node)) {
-$commands = array(l(t('Delete'), 'node/'. $node->nid .'/delete', array('query' => 'destination=' . <em>$_REQUEST[q]</em>)),
-l(t('Remove items'), 'node/'. $node->nid .'/purge', array('query' => 'destination=' . <em>$_REQUEST[q]</em>)),
-l(t('Refresh'), 'node/'. $node->nid .'/refresh', array('query' => 'destination=' . <em>$_REQUEST[q]</em>)),
-l(t('Edit'), 'node/'. $node->nid .'/edit', array('query' => 'destination=' . <em>$_REQUEST[q]</em>)),
-);
-// Fetch statistics for this feed
-foreach (array('download_num', 'new',&nbsp; 'process_time', 'update_times') as $type) {
-$node->feed->statistics[$type] = _feedapi_get_stat($node->nid, $type, TRUE);
-}
-if (count($node->feed->statistics['download_num']) != 0 &amp;&amp; count($node->feed->statistics['new']) != 0 &amp;&amp; count($node->feed->statistics['process_time']) != 0) {
-$update_rate = _feedapi_update_rate($node->feed->statistics['update_times']);
-$rows[] = array(
-l($node->title, "node/$node->nid"),
-$node->feed->checked == 0 ? t('Never') : t('%time ago', array('%time' => format_interval(time() - $node->feed->checked))),
-round(array_sum($node->feed->statistics['new']) / count($node->feed->statistics['new']), 2),
+{% highlight php %}
+function blogsofindy_feedapi_admin_overview($account = NULL) {
+  $header = array(
+    t('Title'),
+    t('Last refresh'),
+    t('New items added per update'),
+    t('Update rate'),
+    t('Number of items'),
+    t('Processing time'),
+    t('Commands'),
+  );
+  
+  $rows = array();
+  
+  //check to see if account variable was passed.
+  //if so then only bring back the nid where the nid is the author
+  if (!isset($account)) {
+    $result = pager_query("SELECT nid from {feedapi} ORDER BY checked DESC", 50, 0, "SELECT count(*) FROM {feedapi}");
+  }
+  else {
+    $sql = sprintf("SELECT feedapi.nid AS nid FROM {feedapi} INNER JOIN {node} ON {feedapi}.nid = {node}.nid WHERE ({node}.uid = %d) ORDER BY {feedapi}.checked DESC", $account->uid);
+    $sql_count = sprintf("SELECT count(*) FROM {feedapi} INNER JOIN {node} ON {feedapi}.nid = {node}.nid WHERE ({node}.uid = %d)", $account->uid);
+    $result = pager_query($sql, 50, 0, $sql_count);
+  }
+
+  while ($nid = db_fetch_array($result)) {
+    $nid = $nid['nid'];
+    $node = node_load($nid);
+    if (is_object($node)) {
+      $commands = array(
+        l(t('Delete'), 'node/'. $node->nid .'/delete', array('query' => 'destination=' . <em>$_REQUEST[q]</em>)),
+        l(t('Remove items'), 'node/'. $node->nid .'/purge', array('query' => 'destination=' . <em>$_REQUEST[q]</em>)),
+        l(t('Refresh'), 'node/'. $node->nid .'/refresh', array('query' => 'destination=' . <em>$_REQUEST[q]</em>)),
+        l(t('Edit'), 'node/'. $node->nid .'/edit', array('query' => 'destination=' . <em>$_REQUEST[q]</em>)),
+      );
+
+      // Fetch statistics for this feed
+      foreach (array('download_num', 'new',&nbsp; 'process_time', 'update_times') as $type) {
+        $node->feed->statistics[$type] = _feedapi_get_stat($node->nid, $type, TRUE);
+      }
+
+      if (count($node->feed->statistics['download_num']) != 0 
+        && count($node->feed->statistics['new']) != 0 
+        && count($node->feed->statistics['process_time']) != 0) {
+        
+          $update_rate = _feedapi_update_rate($node->feed->statistics['update_times']);
+          $rows[] = array(
+          l($node->title, "node/$node->nid"),
+            $node->feed->checked == 0 ? t('Never') : t('%time ago', array('%time' => format_interval(time() - $node->feed->checked))),
+            round(array_sum($node->feed->statistics['new']) / count($node->feed->statistics['new']), 2),
 is_numeric($update_rate) ? format_interval($update_rate) : $update_rate,
 round((array_sum($node->feed->statistics['download_num']) / count($node->feed->statistics['download_num'])), 2),
 round((array_sum($node->feed->statistics['process_time']) / count($node->feed->statistics['process_time'])), 2) .' '. t('ms'),

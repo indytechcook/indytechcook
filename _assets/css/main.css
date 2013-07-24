@@ -174,6 +174,12 @@ h1 {
     margin-bottom: 0px;
 }
 
+.post-title h2 {
+    font-family: 'Goudy Bookletter 1911', serif;
+    border-bottom-color: #e44d26;
+    border-bottom-style: double;
+}
+
 
 .meta {
     color: #f29a83;
@@ -195,7 +201,7 @@ h1 {
 }
 
 .title {
-    color: #1ba356 !important;
+    color: #1ba356;
 }
 
 .main {
@@ -208,6 +214,38 @@ h1 {
     padding-bottom: 10px;
 }
 
+.footer-container footer {
+    color: #1ba356;
+    font-family: 'Goudy Bookletter 1911', serif;
+    padding: 10px 0px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.footer-content {
+    display: block;
+    overflow: hidden;
+}
+
+a:link {color: #1ba356; text-decoration: none; }
+a:active {color: #1ba356; text-decoration: none; }
+a:visited {color: #1ba356; text-decoration: none; }
+a:hover {color: #1ba356; text-decoration: none; }
+
+.post-date {
+    padding-top: 8px;
+    padding-right: 10px;
+}
+
+.main-content {
+    margin-bottom: 80px;
+}
 
 /* ==========================================================================
    Media Queries

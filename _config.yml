@@ -1,8 +1,8 @@
-title: Technology, Food and Random Thoughts
+title: "Technology, Food and Random Thoughts"
 descritpion: Blog of Neil Hastings
 name: Neil Hastings
 
-exclude: [Gemfile,Gemfile.lock]
+exclude: [Gemfile,Gemfile.lock,tasks]
 
 markdown: rdiscount
 pygments: true
