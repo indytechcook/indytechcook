@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Tastebook
+excerpt:
 categories:
 - Food
 - Cooking

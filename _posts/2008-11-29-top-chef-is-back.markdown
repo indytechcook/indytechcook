@@ -2,6 +2,7 @@
 layout: post
 status: publish
 title: Top Chef is Back
+excerpt:
 categories:
 - Uncategorized
 tags:

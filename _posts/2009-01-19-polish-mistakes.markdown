@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: Polish Mistakes
 categories:
 - Food

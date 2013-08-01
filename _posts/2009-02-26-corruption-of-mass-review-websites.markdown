@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: Corruption of Mass Review Websites
 categories:
 - Food

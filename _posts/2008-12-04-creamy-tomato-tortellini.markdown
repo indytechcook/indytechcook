@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Creamy Tomato Tortellini
+excerpt:
 categories:
 - Food
 - Cooking

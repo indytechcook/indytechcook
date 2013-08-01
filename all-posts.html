@@ -1,0 +1,26 @@
+---
+layout: default
+title: All Posts
+---
+
+<!-- This loops through the paginated posts -->
+{% for post in site.posts %}
+<div class="row">
+    <div class="small-12 columns">
+        <div class="post-title">
+            <h4 class="subheader">
+                <a href="{{ post.url }}">
+                    <small class="post-date">{{ post.date | date_to_string }}</small> {{ post.title }}
+                </a>
+            </h4>
+        </div>
+    </div>
+</div>
+{% if post.excerpt %}
+<div class="row">
+    <div class="small-10 small-offset-1 columns">
+        <em>{{ post.excerpt | markdownify }}</em>
+    </div>
+</div>
+{% endif %}
+{% endfor %}

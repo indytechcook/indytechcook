@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: Blogs of Indy Update
 categories:
 - All Things Tech

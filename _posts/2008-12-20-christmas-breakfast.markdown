@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: Christmas Breakfast
 categories:
 - Food

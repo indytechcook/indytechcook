@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Chicken and Rice
+excerpt:
 categories:
 - Cooking
 - Recipie

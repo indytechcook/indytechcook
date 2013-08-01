@@ -2,6 +2,7 @@
 layout: post
 status: publish
 title: Skype Phones are in!!
+excerpt:
 categories:
 - All Things Tech
 - Home Projects

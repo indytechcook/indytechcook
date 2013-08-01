@@ -1,4 +1,5 @@
 ---
+excerpt:
 layout: post
 title: Blogs of Indy Version 0.0000001
 categories:

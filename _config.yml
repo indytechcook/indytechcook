@@ -2,10 +2,10 @@ title: "Technology, Food and Random Thoughts"
 descritpion: Blog of Neil Hastings
 name: Neil Hastings
 
-exclude: [Gemfile,Gemfile.lock,tasks]
+exclude: [Gemfile,Gemfile.lock,tasks,todo.md]
 
 markdown: rdiscount
-pygments: true
+pygments: false
 lsi: false
 timezone: America/New_York
 paginate: 10
@@ -13,3 +13,5 @@ permalink: /:title
 
 asset_pipeline:
   gzip: true
+
+tag_dir: tag

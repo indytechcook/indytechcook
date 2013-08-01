@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: More Drupal Design
 categories:
 - All Things Tech

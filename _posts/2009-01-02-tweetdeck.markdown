@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: TweetDeck
 categories:
 - Computer Tools

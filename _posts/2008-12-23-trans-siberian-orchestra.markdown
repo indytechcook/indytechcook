@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: Trans-Siberian Orchestra
 categories:
 - Uncategorized

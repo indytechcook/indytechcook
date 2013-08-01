@@ -5,31 +5,28 @@ title: Blog of Neil Hastings
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <div class="post-title">
-    <a href="{{ post.url }}">
-      <div class="left post-date">
-        {{ post.date | date_to_string }}
+  <div class="row">
+    <div class="small-12 columns">
+      <div class="post-title">
+          <h4 class="subheader">
+              <a href="{{ post.url }}">
+                  <small class="post-date">{{ post.date | date_to_string }}</small> {{ post.title }}
+              </a>
+          </h4>
       </div>
-      <h2>{{ post.title }}</h2>
-    </a>
+    </div>
   </div>
-  
-  <div class="main-content content">
-    {{ post.content }}
-  </div>
+  {% if post.excerpt %}
+    <div class="row">
+      <div class="small-10 small-offset-1 columns">
+          <em>{{ post.excerpt | markdownify }}</em>
+      </div>
+    </div>
+  {% endif %}
 {% endfor %}
 
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
+<div class="row">
+  <div class="small-3 small-centered columns text-center">
+    <h5 class="subheader"><a href="/all-posts.html">All Posts</a></h5>
+  </div>
 </div>

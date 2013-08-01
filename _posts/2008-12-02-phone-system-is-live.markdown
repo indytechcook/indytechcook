@@ -2,6 +2,7 @@
 layout: post
 status: publish
 title: Phone System is Live
+excerpt:
 categories:
 - All Things Tech
 - Home Projects

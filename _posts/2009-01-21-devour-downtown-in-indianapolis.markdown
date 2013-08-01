@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: Devour Downtown in Indianapolis
 categories:
 - Food

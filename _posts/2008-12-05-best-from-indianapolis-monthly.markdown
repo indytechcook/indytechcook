@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Best of 2008 from Indianapolis Monthly
+excerpt:
 categories:
 - Food
 - Restaurants

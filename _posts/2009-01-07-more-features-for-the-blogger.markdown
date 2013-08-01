@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: More features for the Blogger
 categories:
 - All Things Tech

@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: Hawaiian Ham and Cheese Mini Sandwiches
 categories:
 - Food

@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: First Grill out of the Year
 categories:
 - Food

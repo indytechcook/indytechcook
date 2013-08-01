@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Desktop Customization Tools
+excerpt:
 
 categories:
 - Computer Tools

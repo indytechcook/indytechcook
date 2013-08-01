@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Cooking Classes in Indy
+excerpt:
 
 categories:
 - Food

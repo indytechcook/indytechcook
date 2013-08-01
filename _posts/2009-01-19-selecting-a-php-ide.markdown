@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: Selecting a PHP IDE
 categories:
 - Computer Tools

@@ -8,6 +8,7 @@ tags:
 - drupal
 - taxonomy menu
 - code dreamers
+excerpt:
 ---
 <p style="text-align: left;">It's been a while since I've posted and I've been very busy.&nbsp; I launched a new consulting service I call <a href="http://code-dreamers.com" target="_blank">Code Dreamers</a>.&nbsp; I've spent tons of time on <a href="http://drupal.org/project/taxonomy_menu" target="_blank">Taxonomy Menu</a> and started to develop my ideas for <a href="http://blog.to.it/" target="_blank">Blog to It</a>.&nbsp; Drupal has began to take over my life and I'm loving it.</p>
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: Indy Blogs
 categories:
 - Web Design

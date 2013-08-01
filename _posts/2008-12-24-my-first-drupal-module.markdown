@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: My first Drupal Module
 categories:
 - All Things Tech

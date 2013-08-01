@@ -7,6 +7,7 @@ categories:
 - Life
 tags: []
 comments: []
+excerpt:
 ---
 This is my first blog post.&nbsp; I'm moving to the 21st century.
 

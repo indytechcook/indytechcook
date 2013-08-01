@@ -15,49 +15,76 @@
         <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
 
         {% css_asset_tag global %}
-        - /_assets/css/normalize.css
+        - /_assets/css/foundation.css
         - /_assets/css/syntax.css
         - /_assets/css/main.css
         {% endcss_asset_tag %}
 
         {% javascript_asset_tag header %}
-        - /_assets/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js
+        - /_assets/js/vendor/custom.modernizr.js
         {% endjavascript_asset_tag %}
 
     </head>
     <body>
-      <!--[if lt IE 7]>
-        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-      <![endif]-->
-
-      <div class="header-container">
-        <header class="wrapper clearfix">
-          <h1 class="title">{{site.title}}</h1>
-          <nav>
-            <ul>
-            </ul>
-          </nav>
-        </header>
+      <!-- Nav Bar -->
+ 
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="nav-bar right">
+       <ul class="inline-list">
+          <li><a href="/all-posts.html">All Posts</a></li>
+        </ul>
       </div>
-
-      <div class="main-container">
-        <div class="main wrapper clearfix">
-          {{ content }}
+      <h2 class="title"><a class="title" href="/">{{site.title}}</a></h2>
+      <hr />
+    </div>
+  </div>
+ 
+  <!-- End Nav -->
+ 
+ 
+  <!-- Main Page Content and Sidebar -->
+ 
+  <div class="row">
+ 
+    <!-- Main Blog Content -->
+    <div class="large-12 columns" role="content">
+      {{ content }} 
+    </div>
+ 
+    <!-- End Main Content -->
+ 
+    <!-- End Sidebar -->
+  </div>
+ 
+  <!-- End Main Content and Sidebar -->
+ 
+ 
+  <!-- Footer -->
+ 
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-6 columns">
+          <p class="left">&copy; {% render_year %}, Neil Hastings </p>
+        </div>
+        <div class="large-6 columns right">
+          <p class="right">
+            Find me on <a href="https://twitter.com/indytechcook">twitter</a>, <a href="https://github.com/indytechcook">github</a>, <a href="http://www.linkedin.com/in/neilhastings">linkedin</a> and <a href="https://drupal.org/user/245817">drupal</a>.
+          </p>
         </div>
       </div>
+    </div>
+  </footer>
 
-      <div class="footer-container">  
-        <footer class="wrapper">
-          <div class="footer-content">
-            <div class="left">
-              &copy; {% render_year %}, Neil Hastings 
-            </div>
-            <div class="right">
-              Find me on <a href="https://twitter.com/indytechcook">twitter</a>, <a href="https://github.com/indytechcook">github</a>, <a href="https://drupal.org/user/245817">drupal.org</a>.
-            </div>
-          </div>
-        </footer>
-      </div>
+      {% javascript_asset_tag footer %}
+        - /_assets/js/vendor/jquery-1.10.2.min.js
+        - /_assets/js/vendor/foundation.min.js
+        - /_assets/js/main.js
+      {% endjavascript_asset_tag %}
+
+
       <!-- Piwik -->
       <script type="text/javascript">
         var _paq = _paq || [];
@@ -73,5 +100,9 @@
         })();
       </script>
       <!-- End Piwik Code -->
+      <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css&lang=sql&lang=go&skin=sons-of-obsidian"></script>
+    <script>
+      $(document).foundation();
+    </script>
     </body>
 </html>

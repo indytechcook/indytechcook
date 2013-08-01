@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: Upcomming plans for Blogs of Indy
 categories:
 - All Things Tech
@@ -10,18 +11,18 @@ tags:
 - drupal
 - Blogs of Indy
 ---
-<p style="text-align: left;">I haven't posted an update for <a href="http://blogsofindy.com" target="_blank">Blogs of Indy</a> in a while.&nbsp; I wanted everyone to know that I've been hard at work on coding and haven't had a change to blog out it.&nbsp; Here are some upcoming plans.</p>
-<p style="text-align: left;"><a href="http://techcook.net/2009/01/new-version-of-feedapi-taxonomy-compare/" target="_blank">FeedAPI Taxonomy Compare Updates.</a> This module is a key piece to the functionality.&nbsp; I spent several hours fixing bugs and adding functionality.&nbsp; Being able to match on synonym will help me keep my menus clean.</p>
+I haven't posted an update for <a href="http://blogsofindy.com" target="_blank">Blogs of Indy</a> in a while. I wanted everyone to know that I've been hard at work on coding and haven't had a change to blog out it.; Here are some upcoming plans.</p>
+<a href="http://techcook.net/2009/01/new-version-of-feedapi-taxonomy-compare/" target="_blank">FeedAPI Taxonomy Compare Updates.</a> This module is a key piece to the functionality. I spent several hours fixing bugs and adding functionality. Being able to match on synonym will help me keep my menus clean.</p>
 
-<h3 style="text-align: left;">Blogs of Indy Custom Module</h3>
-<p style="text-align: left;">I added a few tabs to the profile page.&nbsp; One tab is a list of all the blogs for that user.&nbsp; It is basically a copy of the FeedAPI admin page just filter for the user.&nbsp; I filtered it based upon the user argument in the URL. Here is the code for the hook_menu.</p>
+<h3>Blogs of Indy Custom Module</h3>
+I added a few tabs to the profile page. One tab is a list of all the blogs for that user.; It is basically a copy of the FeedAPI admin page just filter for the user. I filtered it based upon the user argument in the URL. Here is the code for the hook_menu.</p>
 
-{% highlight php %}
+<pre class="prettyprint linenums"><code class="language-php">
 $items['user/%user/feeds'] = array(
   'type' => MENU_LOCAL_TASK,
   'title' => 'Blogs', //Going to be a variable on the main setting page
   'page callback' => 'blogsofindy_feedapi_admin_overview',
-  'access callback' => TRUE,&nbsp; //security is built into the function since this displays on the user profile page
+  'access callback' => TRUE, //security is built into the function since this displays on the user profile page
   'page arguments' => array(1), //pass the account
   'file' => 'blogsofindy.feed.user.page.inc'
 );
@@ -31,11 +32,11 @@ $items['user/%user/feeds/overview'] = array(
   'title' => 'Overview',
   'weight' => -10,
 );
-{% endhighlight %}
+</code></pre>
 
-<p style="text-align: left;"><strong>Here is the page callback code.</strong></p>
+<strong>Here is the page callback code.</strong>
 
-{% highlight php %}
+<pre class="prettyprint linenums"><code class="language-php">
 function blogsofindy_feedapi_admin_overview($account = NULL) {
   $header = array(
     t('Title'),
@@ -72,7 +73,7 @@ function blogsofindy_feedapi_admin_overview($account = NULL) {
       );
 
       // Fetch statistics for this feed
-      foreach (array('download_num', 'new',&nbsp; 'process_time', 'update_times') as $type) {
+      foreach (array('download_num', 'new',; 'process_time', 'update_times') as $type) {
         $node->feed->statistics[$type] = _feedapi_get_stat($node->nid, $type, TRUE);
       }
 
@@ -82,150 +83,174 @@ function blogsofindy_feedapi_admin_overview($account = NULL) {
         
           $update_rate = _feedapi_update_rate($node->feed->statistics['update_times']);
           $rows[] = array(
-          l($node->title, "node/$node->nid"),
+            l($node->title, "node/$node->nid"),
             $node->feed->checked == 0 ? t('Never') : t('%time ago', array('%time' => format_interval(time() - $node->feed->checked))),
             round(array_sum($node->feed->statistics['new']) / count($node->feed->statistics['new']), 2),
-is_numeric($update_rate) ? format_interval($update_rate) : $update_rate,
-round((array_sum($node->feed->statistics['download_num']) / count($node->feed->statistics['download_num'])), 2),
-round((array_sum($node->feed->statistics['process_time']) / count($node->feed->statistics['process_time'])), 2) .' '. t('ms'),
-theme('item_list', $commands),
-);
+            is_numeric($update_rate) ? format_interval($update_rate) : $update_rate,
+            round((array_sum($node->feed->statistics['download_num']) / count($node->feed->statistics['download_num'])), 2),
+            round((array_sum($node->feed->statistics['process_time']) / count($node->feed->statistics['process_time'])), 2) .' '. t('ms'),
+            theme('item_list', $commands),
+          );
+      }
+      else {
+        $rows[] = array(
+          l($node->title, "node/$node->nid"),
+          $node->feed->checked == 0 ? t('Never') : t('%time ago', array('%time' => format_interval(time() - $node->feed->checked))),
+          '', '', t('No enough data for statistics'), '',
+          theme('item_list', $commands),
+        );
+      }
+    }
+  }
+  
+  $output = format_plural(round(FEEDAPI_CRON_STAT_LIFETIME / (24*3600)), "Average over the last day.",
+    "Averages over the last @count days."
+  );
+  
+  $output .= theme('table', $header, $rows);
+  $output .= theme('pager', 0, 50);
+  return $output;
+  
 }
-else {
-$rows[] = array(
-l($node->title, "node/$node->nid"),
-$node->feed->checked == 0 ? t('Never') : t('%time ago', array('%time' => format_interval(time() - $node->feed->checked))),
-'', '', t('No enough data for statistics'), '',
-theme('item_list', $commands),
-);
-}
-}
-}
-$output = format_plural(round(FEEDAPI_CRON_STAT_LIFETIME / (24*3600)), "Average over the last day.",
-"Averages over the last @count days."
-);
-$output .= theme('table', $header, $rows);
-$output .= theme('pager', 0, 50);
-return $output;
-}
-<p style="text-align: left;">Pretty simple really.&nbsp; It's a copy of the admin display from FeedAPI.&nbsp; <em>What I changed is in Italics.</em> Right after I did this, FeedAPI introduced a view based approach to the page.&nbsp; I have yet to change my code to use a view, though probably a good idea.</p>
+</code></pre>
 
-<h3 style="text-align: left;">Blog Tag Management</h3>
-<p style="text-align: left;">As some of you remember, I mentioned that there needs to be an easy way for the blog owners to manage the incoming terms that need to be associated to the categories.&nbsp; I choose to do this by adding a tab to the profile page.</p>
+Pretty simple really.  It's a copy of the admin display from FeedAPI. <em>What I changed is in Italics.</em> Right after I did this, FeedAPI introduced a view based approach to the page.; I have yet to change my code to use a view, though probably a good idea.</p>
 
-<p style="text-align: left;">$items['user/%user/feeds/terms'] = array(
-'type' => MENU_LOCAL_TASK,
-'title' => 'Terms',
-'page callback' => drupal_get_form,
-'access callback' => TRUE,
-'page arguments' => array('blogsofindy_terms_form', 1),
-'file' => 'blogsofindy.feed.user.page.inc'
+<h3>Blog Tag Management</h3>
+As some of you remember, I mentioned that there needs to be an easy way for the blog owners to manage the incoming terms that need to be associated to the categories. I choose to do this by adding a tab to the profile page.</p>
+
+
+
+<pre class="prettyprint linenums"><code class="language-php">
+$items['user/%user/feeds/terms'] = array(
+  'type' => MENU_LOCAL_TASK,
+  'title' => 'Terms',
+  'page callback' => drupal_get_form,
+  'access callback' => TRUE,
+  'page arguments' => array('blogsofindy_terms_form', 1),
+  'file' => 'blogsofindy.feed.user.page.inc'
 );
+
 $items['admin/settings/blogsofindy'] = array(
-'type' => MENU_NORMAL_ITEM,
-'title' => 'Blogs of Indy',
-'description' => 'Change the settings for Blogs of Indy Custom Module',
-'page callback'&nbsp; => 'drupal_get_form',
-'page arguments' => array('blogsofindy_admin_settings'),
-'access callback' => TRUE,
-'file' => 'blogsofindy_admin.pages.inc',
+  'type' => MENU_NORMAL_ITEM,
+  'title' => 'Blogs of Indy',
+  'description' => 'Change the settings for Blogs of Indy Custom Module',
+  'page callback'; => 'drupal_get_form',
+  'page arguments' => array('blogsofindy_admin_settings'),
+  'access callback' => TRUE,
+  'file' => 'blogsofindy_admin.pages.inc',
 );
-<p style="text-align: left;">I have complete the first version of the code for displaying the form but I am not ready to share the validation or submit code.&nbsp; I had to come up with how I wanted to manage the terms.&nbsp; This is when I added the synonym functionality to FeedAPI Taxonomy Compare.&nbsp; The idea is that incoming feed's tag will match the synonym and attach itself to the category term.&nbsp; So this form will give the users a list of the tags that their blogs are associated to so they can either "link" them to a category by making them a synonym or add the tag as a category.&nbsp; Either way, the posts nodes will be related to a category term and unrelated from a tag term.&nbsp; I'm struggling with giving the user so much power to add categories (and in turn menu items) so easily.&nbsp; Though it would give them a sense of ownership which is what I am looking for.</p>
-<p style="text-align: left;">Either way, here is the code for the form.</p>
+</code></pre>
 
-<p style="text-align: left;">function blogsofindy_terms_form($form_state, $account) {
-//build SQL statment for tag options
-$sql = sprintf("SELECT DISTINCT td.tid AS tid, td.name AS term_name
-FROM {node} n
-inner join {term_node} tn on n.vid = tn.vid
-inner join {term_data} td on tn.tid = td.tid
-WHERE n.uid =&nbsp; %d AND n.type =&nbsp; '%s' AND td.vid = %d
-ORDER BY td.name", $account->uid, 'feed_item', variable_get('blogsofindy_tags', array('0')));
+I have complete the first version of the code for displaying the form but I am not ready to share the validation or submit code. I had to come up with how I wanted to manage the terms. This is when I added the synonym functionality to FeedAPI Taxonomy Compare.; The idea is that incoming feed's tag will match the synonym and attach itself to the category term.; So this form will give the users a list of the tags that their blogs are associated to so they can either "link" them to a category by making them a synonym or add the tag as a category.; Either way, the posts nodes will be related to a category term and unrelated from a tag term. I'm struggling with giving the user so much power to add categories (and in turn menu items) so easily. Though it would give them a sense of ownership which is what I am looking for.</p>
+Either way, here is the code for the form.</p>
 
-$result = db_query(db_rewrite_sql($sql));
-$tags = array();
 
-$categories = array();
-$tree = taxonomy_get_tree(variable_get('blogsofindy_category', array('0')));
-foreach ($tree as $key => $term) {
-$categories[$term->tid] = _blogsofindy_terms_format($term->name, $term->depth);
+<pre class="prettyprint linenums"><code class="language-php">
+function blogsofindy_terms_form($form_state, $account) {
+  //build SQL statment for tag options
+  $sql = sprintf("SELECT DISTINCT td.tid AS tid, td.name AS term_name
+    FROM {node} n
+    inner join {term_node} tn on n.vid = tn.vid
+    inner join {term_data} td on tn.tid = td.tid
+    WHERE n.uid =; %d AND n.type =; '%s' AND td.vid = %d
+    ORDER BY td.name", $account->uid, 'feed_item', variable_get('blogsofindy_tags', array('0')));
+
+  $result = db_query(db_rewrite_sql($sql));
+  $tags = array();
+
+  $categories = array();
+  $tree = taxonomy_get_tree(variable_get('blogsofindy_category', array('0')));
+  foreach ($tree as $key => $term) {
+    $categories[$term->tid] = _blogsofindy_terms_format($term->name, $term->depth);
+  }
+  if (!empty($result)) {
+    while ($data = db_fetch_object($result)) {
+      $tags[$data->tid] = t($data->term_name);
+    }
+
+    $form['tags'] = array(
+      '#type' => 'select',
+      '#title' => t('List of Tags'),
+      '#options' => $tags,
+    );
+
+    $form['categories'] = array(
+      '#type' => 'select',
+      '#title' => t('Category'),
+      '#options' => $categories,
+    );
+
+    $form['merge'] = array(
+      '#type' => 'select',
+      '#title' => 'Action',
+      '#options'; => array(
+        '1' => t('Move posts and all future posts to new Term'),
+        '2' => t('Move Term from Tags to selected Category')
+      ),
+      '#default_valule' => '1',
+      '#description' => t('Moving the Term from Tags to the selected Cateogry will change the parent and vocabulary for the selected Term'),
+    );
+
+    $form['submit'] = array(
+      '#type' => 'submit',
+      '#value' => t('Move'),
+    );
+  }
+
+  return $form;
 }
-if (!empty($result)) {
-while ($data = db_fetch_object($result)) {
-$tags[$data->tid] = t($data->term_name);
-}
+</code></pre>
 
-$form['tags'] = array(
-'#type' => 'select',
-'#title' => t('List of Tags'),
-'#options' => $tags,
-);
+Using a helper function to display the categories in a hierarchy display
 
-$form['categories'] = array(
-'#type' => 'select',
-'#title' => t('Category'),
-'#options' => $categories,
-);
-
-$form['merge'] = array(
-'#type' => 'select',
-'#title' => 'Action',
-'#options'&nbsp; => array(
-'1' => t('Move posts and all future posts to new Term'),
-'2' => t('Move Term from Tags to selected Category')
-),
-'#default_valule' => '1',
-'#description' => t('Moving the Term from Tags to the selected Cateogry will change the parent and vocabulary for the selected Term'),
-);
-
-$form['submit'] = array(
-'#type' => 'submit',
-'#value' => t('Move'),
-);
-}
-return $form;
-}
-<p style="text-align: left;">Using a helper function to display the categories in a hierarchy display</p>
-
-<p style="text-align: left;">/**
-* helper function to great the options for the cateogires in a tree format.
-* @param string $term
-* @param int $depth
-* @return string
-*/
+<pre class="prettyprint linenums"><code class="language-php">
+/**
+ * helper function to great the options for the cateogires in a tree format.
+ * @param string $term
+ * @param int $depth
+ * @return string
+ */
 function _blogsofindy_terms_format($term, $depth) {
-$output = $term;
-if ($depth > 0) {
-for ($i=1; $i <= $depth; $i++) {
-$output = '-' . $output;
-}
-}
+  $output = $term;
+  if ($depth > 0) {
+    for ($i=1; $i <= $depth; $i++) {
+      $output = '-' . $output;
+    }
+  }
 
-return $output;
-}
-<p style="text-align: left;">I also added a admin settings page to select which vocabularies to use in the "Tags" and "Category" drop downs on the form.</p>
-
-<p style="text-align: left;">function blogsofindy_admin_settings() {
-//get list of vocabularies
-foreach (taxonomy_get_vocabularies() as $voc) {
-$options[$voc->vid] = $voc->name;
+  return $output;
 }
 
-$form['blogsofindy_tags'] = array(
-'#type' => 'select',
-'#title' => t('Tags Vocabulary'),
-'#options' => $options,
-'#default_value' => variable_get('blogsofindy_tags', array('0')),
-);
+</code></pre>
 
-$form['blogsofindy_category'] = array(
-'#type' => 'select',
-'#title' => t('Category Vocabulary'),
-'#options' => $options,
-'#default_value' => variable_get('blogsofindy_category', array('0')),
-);
+I also added a admin settings page to select which vocabularies to use in the "Tags" and "Category" drop downs on the form.
 
-return system_settings_form($form);
+<pre class="prettyprint linenums"><code class="language-php">
+function blogsofindy_admin_settings() {
+  //get list of vocabularies
+  foreach (taxonomy_get_vocabularies() as $voc) {
+    $options[$voc->vid] = $voc->name;
+  }
+
+  $form['blogsofindy_tags'] = array(
+    '#type' => 'select',
+    '#title' => t('Tags Vocabulary'),
+    '#options' => $options,
+    '#default_value' => variable_get('blogsofindy_tags', array('0')),
+  );
+
+  $form['blogsofindy_category'] = array(
+    '#type' => 'select',
+    '#title' => t('Category Vocabulary'),
+    '#options' => $options,
+    '#default_value' => variable_get('blogsofindy_category', array('0')),
+  );
+
+  return system_settings_form($form);
 }
-<h3 style="text-align: left;">Left to do before initial release</h3>
-<p style="text-align: left;">After I finish the code for managing the terms I have to put in place my ideas from my post <a href="http://techcook.net/2009/01/more-features-for-the-blogger/" target="_blank">More Features for the Blogger</a>.&nbsp; I also like <a href="http://blog.to.it/" target="_blank">Blog.to.it</a>'s idea of integrating twitter.&nbsp; This would give more attention to the arthur.&nbsp; Then comes the decision about where to display what.&nbsp; I want to be sure to reconize the blogger but don't want to make the page to busy.&nbsp; Then comes theming which I haven't even begun to learn yet.&nbsp;&nbsp; There you go, more to come :)</p>
+</code></pre>
+
+<h3>Left to do before initial release</h3>
+
+After I finish the code for managing the terms I have to put in place my ideas from my post <a href="http://techcook.net/2009/01/more-features-for-the-blogger/" target="_blank">More Features for the Blogger</a>. I also like <a href="http://blog.to.it/" target="_blank">Blog.to.it</a>'s idea of integrating twitter. This would give more attention to the arthur.; Then comes the decision about where to display what. I want to be sure to reconize the blogger but don't want to make the page to busy. Then comes theming which I haven't even begun to learn yet.;; There you go, more to come :)</p>

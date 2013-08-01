@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: My Favorite Chicken Dish
 author: Neil
 categories:

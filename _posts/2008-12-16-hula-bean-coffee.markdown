@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: Hula Bean Coffee
 categories:
 - Restaurants

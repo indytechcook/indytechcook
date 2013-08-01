@@ -1,4 +1,5 @@
 ---
+excerpt:
 layout: post
 title: Debbie's Salad
 categories:

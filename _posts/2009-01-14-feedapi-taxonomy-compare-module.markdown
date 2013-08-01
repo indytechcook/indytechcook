@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: FeedAPI Taxonomy Compare Module
 categories:
 - All Things Tech

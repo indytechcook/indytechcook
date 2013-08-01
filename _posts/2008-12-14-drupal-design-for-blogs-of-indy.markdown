@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: Drupal Design for Blogs of Indy
 categories:
 - All Things Tech

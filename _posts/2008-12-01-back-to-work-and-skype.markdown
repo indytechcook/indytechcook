@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: Back to Work and Skype
+excerpt:
 categories:
 - All Things Tech
 - Home Projects

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<article>
+    <header>
+        <h1>{{ page.title }}</h1>
+        <div class="meta">
+            <div class="meta-date">
+                Published On {{ page.date | date_to_string }}
+            </div>
+            <div class="meta-tags">
+                {{ page.tags | array_to_sentence_string }}
+            </div>
+        </div>
+    </header>
+    <section>
+        {{ content  }}
+    </section>
+</article>

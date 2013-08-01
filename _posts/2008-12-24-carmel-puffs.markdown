@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: Carmel Puffs
 categories:
 - Food

@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: PSD to Drupal Theme
 categories:
 - All Things Tech

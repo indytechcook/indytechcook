@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: New Version of Feedapi Taxonomy Compare
 categories:
 - All Things Tech

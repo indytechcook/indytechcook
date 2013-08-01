@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt:
 title: Taco Night
 author: Neil
 categories:
