@@ -1,6 +1,6 @@
 ---
 layout: post
-title: saving-mac-battery
+title: Work longer on your Mac Battery
 tags:
 - tips
 excerpt: Batter life is key!
