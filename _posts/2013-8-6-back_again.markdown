@@ -1,0 +1,11 @@
+---
+layout: post
+title: Back Again
+tags:
+-
+excerpt: Back Again after all of these years.
+---
+
+It's been 4 years, 1 month, 19 days since my last blog post on this blog.  During that time I've had 3 jobs, 2 kids and sold a house.  I'm excited to be back at it sharing my thoughts and knowledge with the world.
+
+Not much here really, just the start of something new.
