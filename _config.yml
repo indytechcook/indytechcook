@@ -1,6 +1,12 @@
 title: "Technology, Food and Random Thoughts"
 descritpion: Blog of Neil Hastings
-name: Neil Hastings
+name: "Technology, Food and Random Thoughts"
+url: http://indytechcook.com
+author: indytechcook
+
+#   copyright   - (optional) the copyright of the feed (if not specified will be left blank)
+#   rss_path    - (optional) the path to the feed (if not specified "/" will be used)
+#   rss_name    - (optional) the name of the rss file (if not specified "rss.xml" will be used)
 
 exclude: [Gemfile,Gemfile.lock,tasks,todo.md]
 
