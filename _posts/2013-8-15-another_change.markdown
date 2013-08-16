@@ -3,6 +3,7 @@ layout: post
 title: Another Life Change
 tags:
 - change
+- self improvement
 excerpt: The choice of change.
 ---
 

@@ -22,7 +22,7 @@ class Jekyll < Thor
       f.puts "title: #{name}"
       f.puts "tags:"
       f.puts "-"
-      f.puts "excerpt"
+      f.puts "excerpt:"
       f.puts "---"
     end
     puts "Created _drafts/#{filename}"
