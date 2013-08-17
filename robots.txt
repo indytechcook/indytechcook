@@ -1,0 +1,5 @@
+# robotstxt.org/
+
+User-agent: *
+Disallow: /assets/
+Sitemap: http://indytechcook.com/sitemap.xml
