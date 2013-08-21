@@ -19,4 +19,4 @@ The first few days I've applied his email rule of only checking 2 - 3 times a da
 
 So this is the first post of many.  I want to keep my self accountable and on track along with sharing the tools I've used to help me apply the DEAL principals from The 4-Hours Work Week.  I plan to post often!
 
-Finally, I knew he will never read my blog, but a special thanks to Tim Ferriss!
+Finally, I know he will never read my blog, but a special thanks to Tim Ferriss!
