@@ -3,6 +3,7 @@ descritpion: Blog of Neil Hastings
 name: "Technology, Food and Random Thoughts"
 url: http://indytechcook.com
 author: indytechcook
+baseurl: http://indytechcook.com
 
 #   copyright   - (optional) the copyright of the feed (if not specified will be left blank)
 #   rss_path    - (optional) the path to the feed (if not specified "/" will be used)
