@@ -53,13 +53,17 @@ If I have nothing to really think about, I might spend some time with the kids, 
 
 I want to workout ever day.  I have a [PT that I go to](http://joesfitness.net/) twice a week to keep me focused on what I should be working on.
 
+### After Working:  Process Email
+
+This is check number 2 of the my email.  I also use this time to set my task list for the next day.
+
 ### 5 - kids go to bed:  Dinner and Family Time
 
 This is one of my favorite parts of the day. Enough sad.
 
-### After kids go to bed: Writing
+### After kids go to bed: Misc Self Improvement
 
-I really want to become a better writer.  So I'll practice with writing to my blog every night.  I might not publish every night, but I might work on an article for a few days.
+There is a wide variety of tasks I do here all focused on self improvement.  This can vary between writing for the blog, watching a movie with my wife, sending notes to friends or just talking and socializing.  This is unstructured time that I can use as I want.
 
 ### Before Bed: Reading
 
