@@ -65,3 +65,7 @@ a:hover {
 .tag {
     color: #e44d26;
 }
+
+ul, ol {
+    margin-left: 20px;
+}
