@@ -29,7 +29,7 @@ So I set out with a new company as an engineer on the R&D team.  It sounded like
 
 I had a few moments of weakness where I drafted emails to send to my previous employer to ask for my position back.  It's important to realize this is not a fault and we are not all perfect.  Decisions are analyzed and you start playing the "what if" game.  
 
-Along with the illusion of power, I also place a high value on respect.  I didn't realize how import respect was to me until I made this change.  Go search for ["the importance of respect"](https://duckduckgo.com/?q=importance+of+respect) and you can see what I should have known.  Respect is so important to a man that even the Bible states it as one of the primary drivers in our decision making. ([http://loveandrespect.com]).  How can I get more respect?
+Along with the illusion of power, I also place a high value on respect.  I didn't realize how import respect was to me until I made this change.  Go search for ["the importance of respect"](https://duckduckgo.com/?q=importance+of+respect) and you can see what I should have known.  Respect is so important to a man that even the Bible states it as one of the primary drivers in our decision making. [http://loveandrespect.com](http://loveandrespect.com).  How can I get more respect?
 
 The new job is great.  The regret came because I went from a well respected technical architect to an engineer.  I didn't feel empowered, I didn't know the product and my suggestions weren't listened too.
 
