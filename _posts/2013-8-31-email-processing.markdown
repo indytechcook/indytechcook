@@ -37,7 +37,7 @@ Once I go through this process I have all of the emails that are tasks under the
 
 <img src="https://www.evernote.com/shard/s11/sh/f159ef58-0821-4dae-a034-f0732993f70f/05f0b82bf6ffb6cc3d4616372750a726/deep/0/Search%20results%20-%20neil.hastings@gmail.com%20-%20Gmail.png" alt="Search%20results%20-%20neil.hastings@gmail.com%20-%20Gmail" />
 
-<img class="left" src="https://www.evernote.com/shard/s11/sh/7c4f5b90-88e4-4f40-8b8c-828ad3651c86/6acb96b64b86f54ca9b47d4034f6da3b/deep/0/Search%20results%20-%20neil.hastings@gmail.com%20-%20Gmail.png" alt="Search%20results%20-%20neil.hastings@gmail.com%20-%20Gmail" /> The two actions I currently have are actually from myself.  Using [ActiveInbox](http://www.activeinboxhq.com/referrals/?rc=9bim2k2131a&eh=dd6b6bf6005c43eabc894018cb03b641) provides an Componentse Self button for quick task creation.
+<img class="left" src="https://www.evernote.com/shard/s11/sh/7c4f5b90-88e4-4f40-8b8c-828ad3651c86/6acb96b64b86f54ca9b47d4034f6da3b/deep/0/Search%20results%20-%20neil.hastings@gmail.com%20-%20Gmail.png" alt="Search%20results%20-%20neil.hastings@gmail.com%20-%20Gmail" /> The two actions I currently have are actually from myself.  Using [ActiveInbox](http://www.activeinboxhq.com/referrals/?rc=9bim2k2131a&eh=dd6b6bf6005c43eabc894018cb03b641) provides an "Compose Self" button for quick task creation.
 
 
 ### Organizing Project Tasks
@@ -45,7 +45,7 @@ Once I go through this process I have all of the emails that are tasks under the
 With the action list full of tasks it's time to organize and prioritize.  What's most import is defining what's the next task for each goal.  I use the Project Labels to assign tasks to goals and the "Next" label to define which task is next for each goal.  To maximize efficacy and reduce distractions, I visit each projects page to view the tasks.  [ActiveInbox](http://www.activeinboxhq.com/referrals/?rc=9bim2k2131a&eh=dd6b6bf6005c43eabc894018cb03b641) actually lets you manually sort the items in the list which is awesome! 
  
 
-### Tomorrow List
+### Tomorrow's List
 
 Along with moving away from checking email, I'm moving to creating my actionable task lists the night before so [I'm ready in the morning to get something done](http://indytechcook.com/being-purposeful/).  I pick the tasks that are next in the critical path for my goals.  These should be marked with a  "Next" tag.  I select the tasks and mark them with the "tomorrow" tag.
 
