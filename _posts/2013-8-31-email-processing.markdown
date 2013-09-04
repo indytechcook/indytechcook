@@ -19,6 +19,10 @@ Now that we have established that I'm not a superhuman, let's talk about how I u
 
 After some investigation I found [AwayFind](http://www.awayfind.com/).  The tag line sold me: "Get AWAY from your inbox — let urgent emails cut through the clutter and FIND you...instantly."
 
+EDIT:
+
+I found [IfThisThenThat](http://ifttt.com), a service that allows you to setup condition and actions based upon cloud services.  I now use this service (mostly because it's free).  I setup a rule where any Gmail stared item gets texted to me.  THen I use Gmail fitters to look for patterns or people that I know I need to know about before the next email check (which I'm trying to get to once a day).  These include emails from my manager on up, new issues from our ticket system, mentions from Chatter (Saleforces' version of twitter) and anything from my wife.  Working great so far!
+
 
 ### Processing the inbox
 
