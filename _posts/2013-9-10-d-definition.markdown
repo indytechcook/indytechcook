@@ -5,7 +5,7 @@ tags:
 - 4hww
 - self-improvement
 - goals
-- life-hacking
+- life hacking
 excerpt: Defining your goals is what makes all of the hard work worth the time.
 ---
 
