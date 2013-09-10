@@ -5,6 +5,7 @@ tags:
 - gmail
 - 4hww
 - self-improvement
+- life hacking
 excerpt: Don't let your inbox control you.  Control your inbox.
 ---
 
