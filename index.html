@@ -2,7 +2,7 @@
 layout: default
 title: Blog of Neil Hastings
 ---
-<!-- This loops through the paginated posts -->
+<div class="large-8 columns">
 {% for post in paginator.posts %}
   <div class="row">
     <div class="small-12 columns">
@@ -23,6 +23,14 @@ title: Blog of Neil Hastings
     </div>
   {% endif %}
 {% endfor %}
+</div>
+
+<aside class="large-4 columns">
+  {% include pic.html %}
+  {% include about-short.html %}
+  {% include read-list.html %}
+</aside>
+
 
 <div class="row">
   <div class="small-3 small-centered columns text-center">
