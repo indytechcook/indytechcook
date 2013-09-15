@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: about
 title: Neil Hastings
 ---
 I'm just an ordinary guy with an ordinary up bringing who wants to be extraordinary. Follow me on my journey through life as I look for how to improve myself and the world around me.
