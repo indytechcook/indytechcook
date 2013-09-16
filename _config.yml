@@ -13,7 +13,7 @@ exclude: [Gemfile,Gemfile.lock,tasks,todo.md,jekyll.thor]
 
 markdown: rdiscount
 pygments: false
-lsi: false
+lsi: true
 timezone: America/New_York
 paginate: 10
 permalink: /:title

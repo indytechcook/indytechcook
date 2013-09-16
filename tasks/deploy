@@ -2,5 +2,5 @@
 git add . --all
 git commit -m "Auto commit from deploy script, bad you"
 git push origin master
-jekyll build
+jekyll build --lsi
 rsync -avz --delete _site/ blog:~/apps/indytechcook

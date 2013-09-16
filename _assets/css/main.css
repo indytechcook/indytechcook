@@ -69,3 +69,12 @@ a:hover {
 ul, ol {
     margin-left: 20px;
 }
+
+.side-nav li a {
+    color: #8ac763;
+}
+
+.side-nav {
+    padding-left: 0.875em;
+    padding-right: 0.875em;
+}
