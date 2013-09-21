@@ -6,9 +6,9 @@ I'm just an ordinary guy with an ordinary up bringing who wants to be extraordin
 
 ### Background
 
-I grew up in a very normal family in Indianapolis, Indiana.  You didn't get much more midwestern the my family.  We have good values, loved and supported each other and are all generally good people.  We were a middle class family with a middle class life.
+I grew up in a very normal family in Indianapolis, Indiana.  You didn't get much more midwestern then my family.  We have good values, loved and supported each other and are all generally good people.  We were a middle class family with a middle class life.
 
-I'm just like you.  I haven't had to fight any sort of major adversity.  I haven't had to struggle with money.  I have never made a lot of money.  I'm just a guy who lives in the midwest.  The most adversity I've faced finically was being being really poor in college.  Nothing special.
+I'm just like you.  I haven't had to fight any sort of major adversity.  I haven't had to struggle with money.  I have never made a lot of money.  I'm just a guy who lives in the midwest.  The most adversity I've faced financially was being being really poor in college.  Nothing special.
 
 ### Continual self-improvement
 
@@ -26,6 +26,6 @@ If you want to see my resume, checkout <a href="http://www.linkedin.com/in/neilh
 
 I'm available for contract work.  I specialize in Drupal development but I have a wide variety if programming experience.  
 
-I'm also have expertise in automating processing using technology.  I can save you time, money and mistakes by removing people for the processes that can be automated.  Just send me a message on my via my [contact form](http://indytechcook.com/contact/).
+I also have expertise in automating processing using technology.  I can save you time, money and mistakes by removing people for the processes that can be automated.  Just send me a message on my via my [contact form](http://indytechcook.com/contact/).
 
 

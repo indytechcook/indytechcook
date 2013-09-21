@@ -1,12 +1,3 @@
----
-layout: post
-title: My Assistant - Fancy Hands
-tags:
-- 4hww
-- life-hacking
-excerpt: Using a Virtual Assistant is easier then you think.
----
-
 The most controversial parts of the 4-Hour Work Week are in the automation section. Tim starts off the automation part of his book by telling you to hire a [virtual personal assistant](https://en.wikipedia.org/wiki/Virtual_assistant). He doesn't target this advice to the busiest business people; he tells everyone to get a VPA. The argument is two fold: increase your productivity and learn how to delegate. Both of these are key integral in increasing efficiency. 
 
 I was a bit skeptical. The question everyone (include myself) asks is "why do *I* need a personal assistant?" Tim talks a lot about why in his book. [Here is a sneak peak article](http://www.fourhourworkweek.com/blog/outsourcing-life/). I think Tim says it best with this quote: 
@@ -114,13 +105,3 @@ This experience turned out to be a huge success. When I started using [Fancy Han
 [Remember to click this Fancy Hands link to receive half off the first month.](http://fncy.it/14IJW5M)
 
 Please share any experiences you have had with [Fancy Hands](http://fncy.it/14IJW5M) or other VA's. 
-
-
-
-
-
-
-
-
-
-
