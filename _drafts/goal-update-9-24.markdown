@@ -1,0 +1,51 @@
+---
+layout: post
+title: Update on Goals (Week of 9/23)
+tags:
+- self-improvement
+- goals
+excerpt: This is an update on my goals for the week of 9/23
+--- 
+
+I'm going to do an update of my goals every Monday.  This post is being written on Monday but will actually be posted on Tuesday.  Next week I'll have it published on Monday.  I just decided today to do a Monday Goal Update.  My hope is that these posts will keep me motivated and accountable.
+
+These updates are from the [D for Definition](http://indytechcook.com/d-definition/) post.  If you haven't read that post please do!
+
+
+### Goal:  New House
+
+We are making good progress in saving money for the house we are building.  I have a few side contracts which are putting me on track to make my finical goal of 20% down plus 15K for new house stuff.  My wife and I initial plan was to move into an apartment and save a boat load of money.  Well, we moved into the apartment but we aren't saving the money.
+
+I'm also starting down some passive income streams to bring in some more money long term.  This should help offset the increase in cost of living that I expect we will run into.  I'll write more about this later.
+
+### Goal:  Write a book
+
+I've been struggling about which topic to select.  I think I'll continue writing on this blog until something naturally comes to me.  If you have any ideas please leave a comment.
+
+### Goal: Win a weight Lifting Competition.
+
+So I had a huge setup this week.  I've been having back problems that has cause me to stop working out for the past week.  
+
+I have acquired a [FitBit](http://www.fitbit.com/user/278SWS) and am tracking my activity and what I eat.  All of my information is public so this should be a huge motivator for me to show improvement.
+
+### Goal: Teach my daughter to read
+
+I did some research at the library on Bob books and a few movies.  We watched on Phonics movie together and she really enjoyed matching the sounds to the words.  My wife has been working with her on recognizing her letters and what sounds they make.  She has been making great progress.
+
+### Goal: Have a monthly lunch with someone I admire
+
+I've really slacked in this goal.  That is unfortunate since this is probably one of the best self development tasks I can do.  I did send an email to one possible contact tonight so that's a start.  I can't fear failure!
+
+### Attend social events more regularly
+
+My wife and I did some shopping to get new clothes for me including a nice sports coat.  This will help my confidence I've been meditating every day and I feel that I am listening better.  Now to initiate the hard part of actually talking to more people.  I want more relationships and I know this will benefit long term.  
+
+### Cook Dinner twice a week
+
+I obtained the book [The 4-Hour Chef](http://www.amazon.com/The-4-Hour-Chef-Learning-Anything/dp/B00ERQRM1S/) for fee (e-book) but I have yet to start it.  I've been reading to many other books.  I am cooking one dinner this week, I do this once in a while but I'm not at that mindset yet.
+
+### Until Next time…
+
+There we go, the update for the week.  You can follow my progress also on [Workflowy](https://workflowy.com/?ref=cc89f9d): [https://workflowy.com/#/3d0efacd-b6ca-4a2d-41a4-c4c154975653](https://workflowy.com/#/3d0efacd-b6ca-4a2d-41a4-c4c154975653).
+
+As always, I look forward to your comments!

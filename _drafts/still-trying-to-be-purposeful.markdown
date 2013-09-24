@@ -6,7 +6,7 @@ tags:
 - self-improvement
 
 
-excerpt: Sticking to a schedule is difficult and I might not be cracked up for such a level of organization.
+excerpt: Sticking to a schedule is difficult and I might not be cracked up for such a level of organization. 
 ---
 
 A few weeks ago I wrote about [being more purposeful with my day](http://indytechcook.com/being-purposeful/). In that post, I laid out a high-level schedule of what I would like a day to look like. It sounded great in theory, but I totally forgot that I don't like schedules; I like to work on what I want to work on when I want to work on it. Most importantly, I have two young kids so schedules for myself are pretty useless. 
@@ -35,6 +35,6 @@ Here is what my task list looks like for tomorrow:
 
 Now I have a more focused list of tasks that I can work on throughout the day. I still try to reserve certain times of the day for certain activities. For example, I like to run/workout in the afternoon, I like to code in the morning, and I like to write in the early morning or evening. These have more to do with utilizing how your mind works most efficiently than personal preference. 
 
-*A special thanks to [The Bomchelle Blog for giving some great reviews of tools](http://www.bombchelle.com/category/toolsresources/). I'll be making some more changes in my action lists here soon. Stay tuned! *
+*A special thanks to [The Bomchelle Blog for giving some great reviews of tools](http://www.bombchelle.com/category/toolsresources/). I'll be making some more changes in my action lists here soon. Stay tuned!*
 
 As always, I really look forward to any comments you have!! 
