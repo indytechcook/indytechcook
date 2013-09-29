@@ -19,6 +19,3 @@ So I'm here to help those of you to get past any myths that are holding you back
 This is the big one.  The myth that is the most popular argument.  This is most people's argument against open source.  Let's debunk it!
 
 Most people believe they have the 1% of code that is unique and can not be duplicated.  Help your company realize where their true value proposition lies.  I don't advocate in open sourcing all code all the time (though open sourcing an entire product can be good), just common code.  
-
-
-The [Open Source Foundation](http://opensource.org/) was established to protect the IP of code that was open sourced.  There are over 50 approved [licenses](http://opensource.org/licenses) supported by the Open Source Foundation.  These licenses are backed with 
