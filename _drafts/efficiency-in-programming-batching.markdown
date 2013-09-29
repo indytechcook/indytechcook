@@ -47,7 +47,27 @@ The last point is probably one of the most important.  I found out the expectati
 
 ### The new system
 
-With this new information in hand, I went about reorganizing when I work on my requests.  I batched together requests are similar components and was purposeful about which type of request I worked.  I also changed how I approached a request.
+With this new information in hand and using techniques I learned from [Bombchelle](http://www.bombchelle.com/2012/how-to-manage-your-time-energy-when-its-split/), I went about reorganizing when I work on my requests.  I batch together requests are similar components, am purposeful about which type of request I worked and look to send any request possible to [CloudSpokes](http://www.cloudspokes.com/).  I'm currently working on three main areas at my job:  [CloudFactor](http://www.cloudfactorapp.com/), learning Java and implementing an open source culture.  I also have the following areas outside of my job: freelance work, blogging, self-development.  I'm most effective when I batch tasks together.  I used to work only spend a few spare hours a night on my freelancing and found myself working way more hours then I budgeted due to being very ineffective.  Here is how I'm going to try to break down my week:
+
+* Monday:  CloudFactor all day. Issues in the morning, then programming tasks after.  The after noon is spent on planning or new stories.
+* Tuesday:  Learn Java
+* Wednesday: Freelance work in the AM.  Open Source contribution implementation in the afternoon or CloudFactor depending on priorities. 
+* Thursday: Learn Java
+* Friday:  Freelance work in the AM.  Blog, write or active self or business development (not just reading a book) in the afternoon.
+
+The Weekend is reserved for family time.  
+
+Evenings (after the kids go to bed) are spent either socializing, talking with my wife, reading or writing.  Nothing to intense unless I have a looming deadline.
+
+I started batching tasks almost a month ago and I become very effective in my work at both my job and freelancing.  I even [wrote about the increase amount of free](http://indytechcook.com/d-definition/) time I didn't know how to use.
+
+[When I create my task list for the next day](http://indytechcook.com/still-trying-to-be-purposeful/) I keep these guiltiness in mind to keep my work focused for the day.  It's important to be as strict as possible to your schedule.  Find out the real priories of tasks, they are not all emergencies.  While this schedule looks like I'm slacking off at my job it's completely the opposite.  I'm more effective and less distracted at the tasks I'm working on.  I know what I'll be doing that day and know that I can completely concentrate on the project at hand.
+
+If you have any tips that have helped your effectiveness, please share!
+
+
+    
+
 
 
 
