@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Efficiency in Programming: Batching Tasks
+title: Efficiency in Programming - Batching Tasks
 tags:
 - "Efficiency in Programming"
 - 4hww
