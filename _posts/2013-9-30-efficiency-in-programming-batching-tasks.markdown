@@ -6,6 +6,7 @@ tags:
 - 4hww
 - self-improvement
 - batching
+
 excerpt: Batching similar programming tasks together has made me more efficient with my time.
 ---
 
