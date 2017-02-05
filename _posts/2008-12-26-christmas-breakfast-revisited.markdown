@@ -1,7 +1,6 @@
 ---
-layout: post
-excerpt:
 title: Christmas Breakfast (Revisited)
+date: 2008-12-26 00:00:00 -05:00
 categories:
 - Food
 - Cooking
@@ -10,7 +9,10 @@ tags:
 - recipes
 - christmas
 - waffles
+layout: post
+excerpt: 
 ---
+
 <p style="text-align: left;">I posted <a href="http://techcook.net/2008/12/christmas-breakfast/" target="_blank">this</a> earlier about how I was responsible for Christmas breakfast at my house for 12 people (13 if you count the 3 month old).&nbsp; The house was a zoo.&nbsp; I doubled the recipe and it was the perfect amount.&nbsp; My wife also put together a fresh fruit said (bananas, grapes, canned pineapples, honey crisp apples, orange, and blueberries).&nbsp; It was a good compliment.</p>
 <p style="text-align: left;">I did my best to get a picture of people enjoying the food, but each batch of waffles that came out of the iron were gone within minutes.</p>
 <p style="text-align: left;">I must say these were the best waffles that I had ever had.&nbsp; So light and fluffy that you could eat 10 of them.&nbsp; Of course it helps that I only have a small waffle maker that makes the little 4x4 inch waffles.&nbsp; It did take me about an hour to prep these.&nbsp; I ended up missing some of the present opening.&nbsp; So here are some tips to help you avoid that.</p>

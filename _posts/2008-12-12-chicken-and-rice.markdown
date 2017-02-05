@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Chicken and Rice
-excerpt:
+date: 2008-12-12 00:00:00 -05:00
 categories:
 - Cooking
 - Recipie
@@ -9,7 +8,10 @@ tags:
 - recipes
 - Cooking
 - chicken
+layout: post
+excerpt: 
 ---
+
 I tried a new recipe tonight.&nbsp; Chicken and Rice.&nbsp; I enjoy cooking skillet based meals.&nbsp; It makes me feel like I could be a real chef.&nbsp; <a href="http://techcook.s3.amazonaws.com/Chicken and Rice.jpg" target="_blank">Link to Recipe</a>.
 
 [caption id="" align="alignleft" width="118" caption="Browing the Chicken"]<a href="http://techcook.s3.amazonaws.com/C_Rice_1.jpg" target="_blank"><img class="s3-img" style="border: 0pt none;" src="http://techcook.s3.amazonaws.com/C_Rice_1.jpg" border="0" alt="C_Rice_1.jpg" width="118" height="102" /></a>[/caption]

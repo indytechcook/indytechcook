@@ -1,11 +1,12 @@
 ---
-layout: post
 title: Email Processing
+date: 2013-08-31 00:00:00 -04:00
 tags:
 - gmail
 - 4hww
 - self-improvement
 - life hacking
+layout: post
 excerpt: Don't let your inbox control you.  Control your inbox.
 ---
 

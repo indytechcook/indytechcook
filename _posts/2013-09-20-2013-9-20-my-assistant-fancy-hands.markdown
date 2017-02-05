@@ -1,9 +1,10 @@
 ---
-layout: post
 title: My Assistant - Fancy Hands
+date: 2013-09-20 00:00:00 -04:00
 tags:
 - 4hww
 - life-hacking
+layout: post
 excerpt: Using a Virtual Assistant is easier then you think.
 ---
 

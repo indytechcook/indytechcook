@@ -1,6 +1,6 @@
 ---
-layout: post
 title: 'Excel to Drupal:  Tracking Training Sessions'
+date: 2009-06-16 00:00:00 -04:00
 categories:
 - All Things Tech
 - Web Design
@@ -8,9 +8,10 @@ tags:
 - drupal
 - workflow automation
 - process
+layout: post
 excerpt: Moving to Drupal from Excel is fun!
-
 ---
+
 <p style="text-align: left;">I've been working in corporate America for 10 years.&nbsp; In this time I have seen business of all shapes and size run off of Excel spreadsheets.&nbsp; Don't be me wrong, I use Excel as much as the next guy, but when your entire workflow process is focused around updating and tracking information an Excel spreadsheet then you better take a step back and look at what you are doing.</p>
 <p style="text-align: left;">In this post, I'm going to walk through a small project I took on at work to move a department off of Excel to Drupal.&nbsp; This particular case was a little different then other workflow process automation project I take on as the department came to me looking for an easier way to track information.</p>
 

@@ -1,7 +1,6 @@
 ---
-layout: post
-excerpt:
 title: Polish Mistakes
+date: 2009-01-19 00:00:00 -05:00
 categories:
 - Food
 - Cooking
@@ -9,7 +8,10 @@ categories:
 tags:
 - recipes
 - Cooking
+layout: post
+excerpt: 
 ---
+
 <p style="text-align: left;">No, this isn't an entry about anything Polish.&nbsp; That's just the name of the recipe.</p>
 <p style="text-align: left;">This is a simple recipe that is very filling and lot in carbs.&nbsp; And yes, they taste much better then the look.</p>
 <p style="text-align: left;">Ingredients:</p>

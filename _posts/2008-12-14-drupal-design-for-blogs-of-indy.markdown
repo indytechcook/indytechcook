@@ -1,7 +1,6 @@
 ---
-layout: post
-excerpt:
 title: Drupal Design for Blogs of Indy
+date: 2008-12-14 00:00:00 -05:00
 categories:
 - All Things Tech
 - Web Design
@@ -10,8 +9,10 @@ tags:
 - Blogs of Indy
 - Web Design
 - drupal
-
+layout: post
+excerpt: 
 ---
+
 I've spent most of my free time this week working on syndication site, which now has a name: "Blogs of Indy"
 
 I have decided which modules I am going to use.

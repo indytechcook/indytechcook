@@ -1,11 +1,12 @@
 ---
-layout: post
 title: Update on Goals (Week of 9/23)
+date: 2013-09-24 00:00:00 -04:00
 tags:
 - self-improvement
 - goals
+layout: post
 excerpt: This is an update on my goals for the week of 9/23
---- 
+---
 
 I'm going to do an update of my goals every Monday.  This post is being written on Monday but will actually be posted on Tuesday.  Next week I'll have it published on Monday.  I just decided today to do a Monday Goal Update.  My hope is that these posts will keep me motivated and accountable.
 

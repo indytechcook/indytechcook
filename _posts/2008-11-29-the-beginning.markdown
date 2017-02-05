@@ -1,14 +1,15 @@
 ---
-layout: post
-status: publish
 title: The Beginning
+date: 2008-11-29 00:00:00 -05:00
 categories:
 - Baby Boo
 - Life
-tags: []
+layout: post
+status: publish
 comments: []
-excerpt:
+excerpt: 
 ---
+
 This is my first blog post.&nbsp; I'm moving to the 21st century.
 
 I'm first subject will be about Baby Boo.&nbsp; That's right, I'm going to be a father.&nbsp; I am going to be a good father.&nbsp; I was raised by a good father and I surround myself with encouraging people.&nbsp; I am so excited to be a dad.&nbsp; It's going to fill this hole in my life.&nbsp; I don't always show my emotions but my excitement is hard to hide.

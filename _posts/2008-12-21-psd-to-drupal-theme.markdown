@@ -1,7 +1,6 @@
 ---
-layout: post
-excerpt:
 title: PSD to Drupal Theme
+date: 2008-12-21 00:00:00 -05:00
 categories:
 - All Things Tech
 - Web Design
@@ -9,7 +8,10 @@ tags:
 - Web Design
 - drupal
 - themes
+layout: post
+excerpt: 
 ---
+
 <p style="text-align: left;">I found a very interesting resource that coverts a psd file to a Drupal theme.&nbsp; psdtocss (http://psd2cssonline.com/) online claims to accomplish this from their website.
 
 Example site:

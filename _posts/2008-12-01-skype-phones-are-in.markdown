@@ -1,8 +1,6 @@
 ---
-layout: post
-status: publish
 title: Skype Phones are in!!
-excerpt:
+date: 2008-12-01 00:00:00 -05:00
 categories:
 - All Things Tech
 - Home Projects
@@ -11,7 +9,11 @@ tags:
 - Skype
 - Phone
 - Home Projects
+layout: post
+status: publish
+excerpt: 
 ---
+
 So the GE Skype phones came in.&nbsp; They look good and feel solid.&nbsp; I had read that some people think they feel cheap but I do not share that opion.
 
 Now we wait.&nbsp; 16 hours to charge.&nbsp; Tonight I will update the main adapter and the XLink Gateway to be ready for tomorrow.

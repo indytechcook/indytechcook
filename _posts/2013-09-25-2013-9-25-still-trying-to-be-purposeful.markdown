@@ -1,12 +1,12 @@
 ---
-layout: post
 title: Sting Trying to be purposeful
+date: 2013-09-25 00:00:00 -04:00
 tags:
 - life-hacking
 - self-improvement
-
-
-excerpt: Sticking to a schedule is difficult and I might not be cracked up for such a level of organization. 
+layout: post
+excerpt: Sticking to a schedule is difficult and I might not be cracked up for such
+  a level of organization.
 ---
 
 A few weeks ago I wrote about [being more purposeful with my day](http://indytechcook.com/being-purposeful/). In that post, I laid out a high-level schedule of what I would like a day to look like. It sounded great in theory, but I totally forgot that I don't like schedules; I like to work on what I want to work on when I want to work on it. Most importantly, I have two young kids so schedules for myself are pretty useless. 

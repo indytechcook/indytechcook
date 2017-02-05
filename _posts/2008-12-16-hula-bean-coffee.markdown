@@ -1,7 +1,6 @@
 ---
-layout: post
-excerpt:
 title: Hula Bean Coffee
+date: 2008-12-16 00:00:00 -05:00
 categories:
 - Restaurants
 tags:
@@ -9,7 +8,10 @@ tags:
 - coffee
 - kona coffee
 - hula bean
+layout: post
+excerpt: 
 ---
+
 <p style="text-align: left;">If you live on the southside of Indy (or anywhere really) you HAVE To stop by <a href="http://www.hulabean.com/" target="_blank">Hula Bean Coffee</a>.&nbsp; These guys will make you wnat to NEVER go back to Starbucks.&nbsp; The smoothness is 2nd to none.&nbsp; They use 100% Kona coffe.&nbsp; While this makes it a little more expense, it is worth every penny.</p>
 <p style="text-align: left;">Along with Coffee, they have wonderful ice cream and sandwitches.&nbsp; And yes, FREE WIFI!!!!&nbsp; So the question is, why haven't you been there yet?&nbsp; <strong>GO GO GO</strong></p>
 <p style="text-align: left;">Location:&nbsp; 135 and Olive Branch.</p>

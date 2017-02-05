@@ -1,7 +1,6 @@
 ---
-layout: post
-excerpt:
 title: Upcomming plans for Blogs of Indy
+date: 2009-01-25 00:00:00 -05:00
 categories:
 - All Things Tech
 - Web Design
@@ -10,7 +9,10 @@ tags:
 - Web Design
 - drupal
 - Blogs of Indy
+layout: post
+excerpt: 
 ---
+
 I haven't posted an update for <a href="http://blogsofindy.com" target="_blank">Blogs of Indy</a> in a while. I wanted everyone to know that I've been hard at work on coding and haven't had a change to blog out it.; Here are some upcoming plans.</p>
 <a href="http://techcook.net/2009/01/new-version-of-feedapi-taxonomy-compare/" target="_blank">FeedAPI Taxonomy Compare Updates.</a> This module is a key piece to the functionality. I spent several hours fixing bugs and adding functionality. Being able to match on synonym will help me keep my menus clean.</p>
 

@@ -1,8 +1,6 @@
 ---
-layout: post
-excerpt:
 title: My Favorite Chicken Dish
-author: Neil
+date: 2009-02-21 00:00:00 -05:00
 categories:
 - Food
 - Cooking
@@ -11,7 +9,11 @@ tags:
 - recipes
 - Cooking
 - chicken
+layout: post
+excerpt: 
+author: Neil
 ---
+
 <p style="text-align: left;">Several years ago, my future wife (at the time) and I discovered this wonderfully complex and simple chicken dish.&nbsp; It was rich fancy (to us at the time) and took 3 hours to cook.&nbsp; We haven't had this dish in a few years (due to the 3 hours).&nbsp; We had some friends over last night and decided to give it a go.</p>
 <p style="text-align: left;"><span style="text-decoration: underline;">Ingredients:</span></p>
 

@@ -1,8 +1,9 @@
 ---
-layout: post
 title: Work longer on your Mac Battery
+date: 2013-08-07 00:00:00 -04:00
 tags:
 - tips
+layout: post
 excerpt: Batter life is key!
 ---
 

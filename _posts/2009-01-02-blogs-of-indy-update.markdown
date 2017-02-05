@@ -1,7 +1,6 @@
 ---
-layout: post
-excerpt:
 title: Blogs of Indy Update
+date: 2009-01-02 00:00:00 -05:00
 categories:
 - All Things Tech
 - Web Design
@@ -11,7 +10,10 @@ tags:
 - Web Design
 - drupal
 - Blogs of Indy
+layout: post
+excerpt: 
 ---
+
 <p style="text-align: left;">I have made alot of progress since my last posting about Blogs of Indy.&nbsp; I have completed another module.&nbsp; This time I am going to release it to the general public.&nbsp; I'm currently waiting on my drupal cvs account approval.</p>
 
 <h3 style="text-align: left;">New Module:</h3>

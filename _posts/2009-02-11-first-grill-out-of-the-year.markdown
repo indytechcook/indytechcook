@@ -1,15 +1,17 @@
 ---
-layout: post
-excerpt:
 title: First Grill out of the Year
+date: 2009-02-11 00:00:00 -05:00
 categories:
 - Food
 - Cooking
 tags:
 - Cooking
 - grill
+layout: post
+excerpt: 
 comments: []
 ---
+
 <p style="text-align: left;">That's right.&nbsp; I said it.&nbsp; I had my first grill out of the year.&nbsp; While it wasn't very appetizing, it was still a grill out.&nbsp; The earlier I can warm up my grilling skills for the year the better.</p>
 <p style="text-align: left;"><a class="tt-flickr tt-flickr-Small" title="IMG_0263" href="http://techcook.net/pictures/photo/3272211264/img_0263.html"><img class="alignnone" src="http://farm4.static.flickr.com/3298/3272211264_b92dbf835d_m.jpg" alt="IMG_0263" width="180" height="240" /></a></p>
 <p style="text-align: left;"><a class="tt-flickr tt-flickr-Small" title="IMG_0264" href="http://techcook.net/pictures/photo/3272211310/img_0264.html"><img class="alignnone" src="http://farm4.static.flickr.com/3321/3272211310_98859e71c7_m.jpg" alt="IMG_0264" width="240" height="180" /></a></p>

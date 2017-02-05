@@ -1,9 +1,10 @@
 ---
-layout: post
 title: Another Life Change
+date: 2013-08-15 00:00:00 -04:00
 tags:
 - change
 - self improvement
+layout: post
 excerpt: The choice of change.
 ---
 

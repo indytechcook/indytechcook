@@ -1,11 +1,12 @@
 ---
-layout: post
 title: Update on Goals (Week of 10/7)
+date: 2013-10-07 00:00:00 -04:00
 tags:
 - self-improvement
 - goals
+layout: post
 excerpt: This is an update on my goals for the week of 10/7
---- 
+---
 
 These updates are from the [D for Definition](http://indytechcook.com/d-definition/) post.  If you haven't read that post please do!
 

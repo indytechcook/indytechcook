@@ -1,7 +1,6 @@
 ---
-layout: post
-excerpt:
 title: Hawaiian Ham and Cheese Mini Sandwiches
+date: 2008-12-14 00:00:00 -05:00
 categories:
 - Food
 - Cooking
@@ -9,6 +8,8 @@ tags:
 - recipes
 - Cooking
 - Food News
+layout: post
+excerpt: 
 ---
 
 Here is a very easy and delicious meal. The sandwiches are sweet and a little greasy.

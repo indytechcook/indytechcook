@@ -1,8 +1,6 @@
 ---
-layout: post
-status: publish
 title: Phone System is Live
-excerpt:
+date: 2008-12-02 00:00:00 -05:00
 categories:
 - All Things Tech
 - Home Projects
@@ -11,7 +9,11 @@ tags:
 - Skype
 - Phone
 - Home Phone Setup
+layout: post
+status: publish
+excerpt: 
 ---
+
 After 16 hours of charging, I was able to hook up the system.&nbsp; It took about 20 minutes of configuration.&nbsp; It turns out that I atctually purchased 4 phones so I placed one in the kitchen, one in the den, one in the basement and one in the master bedroom.
 
 Next was setting up XLink.&nbsp; This took about 2 minutes.&nbsp; Amazing how easy technology can be.

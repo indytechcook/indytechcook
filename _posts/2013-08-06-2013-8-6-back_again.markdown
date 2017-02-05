@@ -1,8 +1,7 @@
 ---
-layout: post
 title: Back Again
-tags:
--
+date: 2013-08-06 00:00:00 -04:00
+layout: post
 excerpt: Back Again after all of these years.
 ---
 

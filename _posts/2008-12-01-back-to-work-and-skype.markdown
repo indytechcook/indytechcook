@@ -1,8 +1,6 @@
 ---
-layout: post
-published: true
 title: Back to Work and Skype
-excerpt:
+date: 2008-12-01 00:00:00 -05:00
 categories:
 - All Things Tech
 - Home Projects
@@ -16,7 +14,10 @@ tags:
 - Home
 - XLink
 - Home Customizations
+layout: post
+excerpt: 
 ---
+
 It's back to wrok after a long weekend.&nbsp; These are the worst.&nbsp; I seem to be extremely busy today.&nbsp; My mind is extremely sharp.
 
 So my wife is going out of town tomorrow which means I get to spend all evening on the computer with no distractions!&nbsp; I plan to setup my new toy, a <a href="http://www.home-electronics.net/ge/pc/viewPrd.asp?idcategory=13&amp;idproduct=17" target="_blank">GE Skype Phone</a> in tangant with a <a href="http://www.xlinkgateway.com/" target="_blank">Xlink Adapter</a>.&nbsp; This setup will allow me to drop my current VOIP line and use SKype and our cell phones to ring on every phone.

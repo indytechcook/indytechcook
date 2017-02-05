@@ -1,7 +1,6 @@
 ---
-layout: post
-excerpt:
 title: My first Drupal Module
+date: 2008-12-24 00:00:00 -05:00
 categories:
 - All Things Tech
 - Web Design
@@ -10,7 +9,10 @@ tags:
 - websites
 - Web Design
 - Blogs of Indy
+layout: post
+excerpt: 
 ---
+
 <p style="text-align: left;">I did it.&nbsp; A huge milestone in my Drupal development life.&nbsp; I completed my first custom module.&nbsp; While at this point it would only work on my site (I hard coded the name of content types and some other variables from the notification module) but it works. I have attached it but know that you can't just add it to your site.&nbsp; At minimum you might have to change the name of the feed-item content type on line 85.</p>
 <p style="text-align: left;"><a class="s3-link" href="http://techcook.s3.amazonaws.com/notification_block.zip">notification_block.zip</a></p>
 <p style="text-align: left;"><span style="text-decoration: underline;">What it does</span>:&nbsp; Add a block with a drop down.&nbsp; The drop down contains the name of the Feed and all taxonomy terms for that node.&nbsp; If the node type is the feed item (Post) then it pulls the parent feed and puts it in the list.</p>

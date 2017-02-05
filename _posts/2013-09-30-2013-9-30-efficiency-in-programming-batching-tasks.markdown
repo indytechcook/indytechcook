@@ -1,13 +1,14 @@
 ---
-layout: post
 title: Efficiency in Programming - Batching Tasks
+date: 2013-09-30 00:00:00 -04:00
 tags:
-- "Efficiency in Programming"
+- Efficiency in Programming
 - 4hww
 - self-improvement
 - batching
-
-excerpt: Batching similar programming tasks together has made me more efficient with my time.
+layout: post
+excerpt: Batching similar programming tasks together has made me more efficient with
+  my time.
 ---
 
 This is the first blog post in a series called "Efficiency in Programming" where I will apply techniques I've learned to programming an other technical tasks.

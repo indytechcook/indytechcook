@@ -1,7 +1,6 @@
 ---
-layout: post
-excerpt:
 title: Christmas Breakfast
+date: 2008-12-20 00:00:00 -05:00
 categories:
 - Food
 - Cooking
@@ -11,7 +10,10 @@ tags:
 - Cooking
 - breakfast
 - christmas
+layout: post
+excerpt: 
 ---
+
 <p style="text-align: left;">I have been tasked by my favorite boss (my wife) to cook Christmas breakfast.&nbsp; This year my family is celebrating Christmas at my house.&nbsp; Wilie some people might see this as a burden, I see it as a blessing.&nbsp; There isn't much I enjoy more then spending quality time with my family.</p>
 <p style="text-align: left;">My wife gave me a recipe from <a href="http://www.foodnetwork.com/" target="_blank">Food Network</a> (my favorite) for <a href="http://www.foodnetwork.com/recipes/emeril-lagasse/classic-belgian-waffles-recipe/index.html" target="_blank">Classic Belgian Waffles</a> from <a href="http://www.foodnetwork.com/emeril-lagasse/index.html" target="_blank">Chef Emeril</a> (BAM).&nbsp; This is not your make from a box waffle.&nbsp; I feel this is a very big step for her.&nbsp; This is the first time she has encouraged me to make something from scratch that would just as easily be made from a kit.&nbsp; While this encouragement is subtle (I don't she even knew she did it) it still means a lot to me.&nbsp; I have shared several ideas with her over the years.&nbsp; Most of them never turned into anything, just ideas.&nbsp; This encouragement will help me stick with cooking.&nbsp; It truly is something that I enjoy that can benefit others.&nbsp; Who knows, maybe I will be more talented at cooking then at computers.</p>
 <p style="text-align: left;">This recipe sure does use a lot of dishes!&nbsp; Being the person who does all of the dishes in the house this is something I notice.&nbsp; The recipe on the site is one big long paragraph.&nbsp; I split it up a little here to make it easier to follow.</p>

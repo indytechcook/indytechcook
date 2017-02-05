@@ -1,7 +1,6 @@
 ---
-layout: post
-excerpt:
 title: More Drupal Design
+date: 2008-12-19 00:00:00 -05:00
 categories:
 - All Things Tech
 - Web Design
@@ -11,7 +10,10 @@ tags:
 - Web Design
 - drupal
 - website
+layout: post
+excerpt: 
 ---
+
 <p style="text-align: left;">I have more desgin Details about blogs of Indy (my first <a href="http://drupal.org" target="_blank">Druapl</a> site).</p>
 <p style="text-align: left;">I want a login block like <a href="http://geeksandgod.com/" target="_blank">Geeds and God</a>.&nbsp; The content of the block will change depending on if a user is logged in.&nbsp; The Ajax interface allows for a smooth transition to the log in dialog.&nbsp; I haven't selected an exact color scheme yet but I created <a href="http://techcook.s3.amazonaws.com/indyblog_logo.gif" target="_parent">this logo</a>.&nbsp; I like the dark blue but I want a very light a clean site.&nbsp; I plan on using <a href="http://drupal.org/project/viewscarousel" target="_blank">Views Carousel</a> to have a list of the site news and the feeds at the bottem of the page.&nbsp; My goal is to make it easy for the user to get to the content.&nbsp; A narrow header with the logo on the right and a list of the categories (with drop downs) on the left.</p>
 <p style="text-align: left;">Current to do list:</p>

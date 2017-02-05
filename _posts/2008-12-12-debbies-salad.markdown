@@ -1,7 +1,6 @@
 ---
-excerpt:
-layout: post
 title: Debbie's Salad
+date: 2008-12-12 00:00:00 -05:00
 categories:
 - Food
 - Cooking
@@ -9,7 +8,10 @@ categories:
 tags:
 - recipes
 - Food News
+excerpt: 
+layout: post
 ---
+
 My wife's fathers cousin makes this wonderful salad.&nbsp; It is so lite and full of flavor.&nbsp; Everytime we bring it somewhere it is a huge hit.
 
 Salad

@@ -1,7 +1,6 @@
 ---
-layout: post
-excerpt:
 title: Carmel Puffs
+date: 2008-12-24 00:00:00 -05:00
 categories:
 - Food
 - Recipie
@@ -9,7 +8,10 @@ tags:
 - recipes
 - Cooking
 - christmas
+layout: post
+excerpt: 
 ---
+
 <p style="text-align: left;">My wife and I made one of my favorite treats today.&nbsp; Carmel Puffs.&nbsp; This has also become a family favorite.&nbsp; The recipe is very simple. &nbsp; It is also lesson on how to make home made caramel.</p>
 
 <h3 style="text-align: left;">Ingredients</h3>

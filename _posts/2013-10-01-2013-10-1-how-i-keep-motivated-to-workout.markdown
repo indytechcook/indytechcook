@@ -1,10 +1,12 @@
 ---
-layout: post
 title: How I keep motivated to workout
+date: 2013-10-01 00:00:00 -04:00
 tags:
 - work out
 - goals
-excerpt: Sticking to a consistent workout schedule can made easier with the write tools.
+layout: post
+excerpt: Sticking to a consistent workout schedule can made easier with the write
+  tools.
 ---
 
 If you read my post from last [Monday's goal update](http://indytechcook.com/goal-update-9-30/), you would see that I have a goal to lose 20 lbs in 6 months and keep it off for 6 months.  I feel this would help establish a consistent behavior of healthy eating and working out.

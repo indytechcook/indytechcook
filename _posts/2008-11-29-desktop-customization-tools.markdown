@@ -1,16 +1,17 @@
 ---
-layout: post
 title: Desktop Customization Tools
-excerpt:
-
+date: 2008-11-29 00:00:00 -05:00
 categories:
 - Computer Tools
 tags:
 - Computer Tools
 - Desktop
 - Customize
+layout: post
+excerpt: 
 comments: []
 ---
+
 In my random searching I found this <a href="http:&#47;&#47;lifehacker.com&#47;5043712&#47;roll-your-own-lightning-at-sunset-desktop" target="_blank">post on Life Hacker</a> about some cool desktop customizations.&nbsp; Being the adventurious&#47;curious person taht I am I decided to play with a few of these.&nbsp; I find the idea of customizing your computer to be facinating.&nbsp; It's wonderful that you can show you indiviuality on your computer.&nbsp; I do warn you that it is easy to get lost in the complicated nature of customizing your desktop.&nbsp; There are several programs out there few of them are as easy as sites say they are.&nbsp; Most of these customizations will cause instability so play with caution.
 
 I installed all of the programs from this blog (along with a few others) and here what I am left with.

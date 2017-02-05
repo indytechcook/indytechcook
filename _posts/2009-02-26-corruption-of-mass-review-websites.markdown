@@ -1,14 +1,16 @@
 ---
-layout: post
-excerpt:
 title: Corruption of Mass Review Websites
+date: 2009-02-26 00:00:00 -05:00
 categories:
 - Food
 - Restaurants
 tags:
 - Restaurants
 - reviews
+layout: post
+excerpt: 
 ---
+
 <p style="text-align: left;">I read a very interesting article from Braingir's blog <a href="http://feedmedrinkme.blogspot.com/" target="_blank">Feed Me Drink Me</a> about a mass review service called <a href="http://www.yelp.com/" target="_blank">Yelp. </a>Yelp is a site where anyone can post a review about a service.&nbsp; The idea is to get reviews from the average person to help another average person make an educated selection.&nbsp; I have used several services like this to search for all sorts of information from where I should go eat to what mechanic should I use.&nbsp; I have always read the views with interest, knowing that one bad experience does not make an establishment poor.&nbsp; You are more likely to find bad reviews over good ones, so when a good one was found I added more weight to it.</p>
 <p style="text-align: left;">My trust in these sites has now gone by the wayside.&nbsp; From braingir's blog:</p>
 

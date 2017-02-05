@@ -1,8 +1,9 @@
 ---
-layout: post
 title: Myths of Open Source Contribution in the Enterprise World
+date: 2017-02-04 22:02:46.624000000 -05:00
 tags:
 - open source
+layout: post
 excerpt: Don't let yourself get caught up in the myth of contributing to open source
 ---
 

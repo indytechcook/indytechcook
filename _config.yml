@@ -1,24 +1,29 @@
-title: "Neil Hastings"
+---
+title: Neil Hastings
+timezone: America/New_York
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 description: Blog of Neil Hastings
-name: "Neil's Life Journey"
+name: Neil's Life Journey
 url: http://indytechcook.com
 author: Neil Hastings
 baseurl: http://indytechcook.com
-
-#   copyright   - (optional) the copyright of the feed (if not specified will be left blank)
-#   rss_path    - (optional) the path to the feed (if not specified "/" will be used)
-#   rss_name    - (optional) the name of the rss file (if not specified "rss.xml" will be used)
-
-exclude: [Gemfile,Gemfile.lock,tasks,todo.md,jekyll.thor]
-
+exclude:
+- Gemfile
+- Gemfile.lock
+- tasks
+- todo.md
+- jekyll.thor
 markdown: rdiscount
 pygments: false
 lsi: true
-timezone: America/New_York
 paginate: 10
-permalink: /:title
-
+permalink: "/:title"
 asset_pipeline:
   gzip: true
-
 tag_dir: tag

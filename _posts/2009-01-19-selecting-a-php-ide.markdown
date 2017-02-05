@@ -1,14 +1,16 @@
 ---
-layout: post
-excerpt:
 title: Selecting a PHP IDE
+date: 2009-01-19 00:00:00 -05:00
 categories:
 - Computer Tools
 - All Things Tech
 tags:
 - php ide
 - programming
+layout: post
+excerpt: 
 ---
+
 <p style="text-align: left;">Over the past few years my php development was rare and disconnected.&nbsp; <a href="http://notepad-plus.sourceforge.net/uk/site.htm" target="_blank">Notepad++</a> fit all of my needs.&nbsp; It has a <a href="http://sourceforge.net/project/showfiles.php?group_id=189927&amp;package_id=236520" target="_blank">debugger plugin</a> and some <a href="http://sourceforge.net/project/showfiles.php?group_id=189927&amp;package_id=223668" target="_blank">syntax highlighting</a>.&nbsp; Now that I am becoming a free lance developer I needed a more full feature IDE.&nbsp; Most of my development will be for custom <a href="http://drupal.org/" target="_parent">Drupal</a> modules.&nbsp; I did a little google search and found a few good comparison sites.&nbsp; One from<a href="http://www.ibm.com/developerworks/opensource/library/os-php-ide/index.html" target="_blank"> IBM</a> and another from <a href="http://www.php-editors.com/" target="_parent">PHP Editors</a> ( a note that this site seems to be sponsored by NuSphere PhpED).</p>
 
 <h3 style="text-align: left;">My needs</h3>

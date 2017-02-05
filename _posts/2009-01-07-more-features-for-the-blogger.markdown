@@ -1,7 +1,6 @@
 ---
-layout: post
-excerpt:
 title: More features for the Blogger
+date: 2009-01-07 00:00:00 -05:00
 categories:
 - All Things Tech
 - Web Design
@@ -10,7 +9,10 @@ tags:
 - Web Design
 - drupal
 - Blogs of Indy
+layout: post
+excerpt: 
 ---
+
 <p style="text-align: left;">Apparently Google indexed the bogsofndy.com site and notified a few of the blog owners that their content was being published.&nbsp; This was unfortunate because they saw the site before it was ready.&nbsp; After a few email discussions they were on board with my idea.&nbsp; I was also able to pull some good suggestions.&nbsp; I now understand how passionate many bloggers are about their content.&nbsp; This has lead me to add some features that will benefit the bloggers.</p>
 
 <ul style="text-align: left;">

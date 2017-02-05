@@ -1,11 +1,12 @@
 ---
-layout: post
 title: D is for Definition
+date: 2013-09-10 00:00:00 -04:00
 tags:
 - 4hww
 - self-improvement
 - goals
 - life hacking
+layout: post
 excerpt: Defining your goals is what makes all of the hard work worth the time.
 ---
 
